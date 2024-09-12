@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #e0e0e0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #282c34;
+    color: #fff;
+    padding: 15px 25px;
+    border-bottom: 2px solid #61dafb;
+}
+
+.navbar img {
+    display: block;
+    border-radius: 50%;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    color: #61dafb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.container {
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.person, .interests, section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.person p, .interests p {
+    margin: 12px 0;
+}
+
+section h2 {
+    margin-top: 0;
+    color: #282c34;
+}
+
+footer {
+    background-color: #282c34;
+    color: #fff;
+    padding: 15px 25px;
+    text-align: center;
+    border-top: 2px solid #61dafb;
+}
+
+footer a {
+    margin: 0 12px;
+    display: inline-block;
+}
+
+footer img {
+    vertical-align: middle;
+    border-radius: 8px;
+}
+
+img {
+    transition: transform 0.3s ease-in-out, border-radius 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+    border-radius: 12px;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    justify-items: center;
+}
+
+.photo {
+    width: 100%;
+    max-width: 300px; 
+    text-align: center;
+}
+
+.photo img {
+    width: 100%;
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.photo p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555; 
+}
+/* Стили для вкладки Videos */
+.video-item {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.video-item h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.video-item iframe {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Закругленные углы для видео */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень для видео */
+}
